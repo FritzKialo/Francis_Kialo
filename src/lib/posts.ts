@@ -11,8 +11,9 @@ function ensureDirectory() {
     }
 }
 
+// Do not try to create directory during read operations (Vercel is read-only)
+
 export function getPosts(): Post[] {
-    ensureDirectory();
     if (!fs.existsSync(postsFile)) {
         return [];
     }
@@ -30,6 +31,7 @@ export function getPostBySlug(slug: string): Post | undefined {
 }
 
 export function savePost(post: Post) {
+    ensureDirectory(); // Only ensure directory when we are about to write (fails on Vercel but works locally)
     const posts = getPosts();
     const existingIndex = posts.findIndex(p => p.id === post.id);
     if (existingIndex > -1) {
@@ -41,6 +43,7 @@ export function savePost(post: Post) {
 }
 
 export function deletePost(id: string) {
+    ensureDirectory();
     let posts = getPosts();
     posts = posts.filter(p => p.id !== id);
     fs.writeFileSync(postsFile, JSON.stringify(posts, null, 2));
