@@ -356,3 +356,98 @@
 2026-02-08T04:51:49.095787Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\js"
 2026-02-08T04:51:49.096954Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
 2026-02-08T04:51:49.107234Z  INFO get_globs: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.450299Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.451976Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\package.json"
+2026-02-08T05:04:38.452125Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\prisma"
+2026-02-08T05:04:38.452417Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public"
+2026-02-08T05:04:38.452581Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets"
+2026-02-08T05:04:38.452745Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\css"
+2026-02-08T05:04:38.453443Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\fonts"
+2026-02-08T05:04:38.453745Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images"
+2026-02-08T05:04:38.453929Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\blog"
+2026-02-08T05:04:38.454134Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\landing"
+2026-02-08T05:04:38.454380Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\portfolio"
+2026-02-08T05:04:38.454651Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\testimonials"
+2026-02-08T05:04:38.454878Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\js"
+2026-02-08T05:04:38.455821Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src"
+2026-02-08T05:04:38.456026Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app"
+2026-02-08T05:04:38.456204Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\admin"
+2026-02-08T05:04:38.456369Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\admin\\login"
+2026-02-08T05:04:38.456961Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api"
+2026-02-08T05:04:38.457163Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\admin"
+2026-02-08T05:04:38.457393Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\admin\\posts"
+2026-02-08T05:04:38.457684Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\auth"
+2026-02-08T05:04:38.457927Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\auth\\login"
+2026-02-08T05:04:38.458365Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\debug"
+2026-02-08T05:04:38.458888Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\blog"
+2026-02-08T05:04:38.459171Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\blog\\[slug]"
+2026-02-08T05:04:38.459529Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\components"
+2026-02-08T05:04:38.459804Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\data"
+2026-02-08T05:04:38.460014Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\lib"
+2026-02-08T05:04:38.460301Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\scripts"
+2026-02-08T05:04:38.460512Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\types"
+2026-02-08T05:04:38.460745Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup"
+2026-02-08T05:04:38.460931Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets"
+2026-02-08T05:04:38.461097Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\css"
+2026-02-08T05:04:38.461654Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\fonts"
+2026-02-08T05:04:38.461948Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images"
+2026-02-08T05:04:38.462120Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\blog"
+2026-02-08T05:04:38.462341Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\landing"
+2026-02-08T05:04:38.462571Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\portfolio"
+2026-02-08T05:04:38.462808Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\testimonials"
+2026-02-08T05:04:38.463045Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\js"
+2026-02-08T05:04:38.464281Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.464293Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.464299Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.464303Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-02-08T05:04:38.464379Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\package.json"
+2026-02-08T05:04:38.464392Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.464397Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.464401Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.464577Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.464611Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.464696Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.465984Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.465997Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.467619Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\prisma"
+2026-02-08T05:04:38.467962Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public"
+2026-02-08T05:04:38.468133Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets"
+2026-02-08T05:04:38.468301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\css"
+2026-02-08T05:04:38.468917Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\fonts"
+2026-02-08T05:04:38.469236Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images"
+2026-02-08T05:04:38.469413Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\blog"
+2026-02-08T05:04:38.469622Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\landing"
+2026-02-08T05:04:38.469847Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\portfolio"
+2026-02-08T05:04:38.470107Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\images\\testimonials"
+2026-02-08T05:04:38.470342Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\public\\assets\\js"
+2026-02-08T05:04:38.471363Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src"
+2026-02-08T05:04:38.471536Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app"
+2026-02-08T05:04:38.471703Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\admin"
+2026-02-08T05:04:38.471867Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\admin\\login"
+2026-02-08T05:04:38.472135Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api"
+2026-02-08T05:04:38.472300Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\admin"
+2026-02-08T05:04:38.472548Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\admin\\posts"
+2026-02-08T05:04:38.472806Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\auth"
+2026-02-08T05:04:38.472970Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\auth\\login"
+2026-02-08T05:04:38.473405Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\api\\debug"
+2026-02-08T05:04:38.473779Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\blog"
+2026-02-08T05:04:38.474079Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\app\\blog\\[slug]"
+2026-02-08T05:04:38.474770Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\components"
+2026-02-08T05:04:38.475603Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\data"
+2026-02-08T05:04:38.475942Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\lib"
+2026-02-08T05:04:38.476378Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\scripts"
+2026-02-08T05:04:38.476695Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\src\\types"
+2026-02-08T05:04:38.477044Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup"
+2026-02-08T05:04:38.477308Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets"
+2026-02-08T05:04:38.477580Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\css"
+2026-02-08T05:04:38.478353Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\fonts"
+2026-02-08T05:04:38.478652Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images"
+2026-02-08T05:04:38.478825Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\blog"
+2026-02-08T05:04:38.479047Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\landing"
+2026-02-08T05:04:38.479277Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\portfolio"
+2026-02-08T05:04:38.479496Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\images\\testimonials"
+2026-02-08T05:04:38.479725Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "C:\\My Web Sites\\Portfolio\\soliman.netlify.app\\static_backup\\assets\\js"
+2026-02-08T05:04:38.480898Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.481042Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-02-08T05:04:38.481656Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-02-08T05:04:38.481668Z  INFO get_globs: tailwindcss_oxide::scanner: exit

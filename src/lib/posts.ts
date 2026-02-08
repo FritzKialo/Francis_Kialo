@@ -74,4 +74,3 @@ export async function deletePost(id: string): Promise<void> {
         throw new Error('Failed to delete post');
     }
 }
-
