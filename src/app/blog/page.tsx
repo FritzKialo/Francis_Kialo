@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export const dynamic = 'force-dynamic'; // Ensure we get fresh data
 
-export default function BlogListing() {
-    const posts = getPosts();
+export default async function BlogListing() {
+    const posts = await getPosts();
 
     return (
         <div className="min-h-screen bg-slate-950 pt-32 px-6 pb-24">

@@ -4,5 +4,6 @@ export interface Post {
     slug: string;
     content: string;
     excerpt: string;
-    createdAt: string;
+    createdAt: Date | string;
+    updatedAt: Date | string;
 }

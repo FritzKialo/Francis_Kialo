@@ -1,50 +1,77 @@
-import fs from 'fs';
-import path from 'path';
+import { prisma } from './prisma';
 import { Post } from '@/types';
 
-const postsDirectory = path.join(process.cwd(), 'src/data');
-const postsFile = path.join(postsDirectory, 'posts.json');
-
-function ensureDirectory() {
-    if (!fs.existsSync(postsDirectory)) {
-        fs.mkdirSync(postsDirectory, { recursive: true });
-    }
-}
-
-// Do not try to create directory during read operations (Vercel is read-only)
-
-export function getPosts(): Post[] {
-    if (!fs.existsSync(postsFile)) {
-        return [];
-    }
-    const fileContents = fs.readFileSync(postsFile, 'utf8');
+/**
+ * Get all posts from database, sorted by creation date (newest first)
+ */
+export async function getPosts(): Promise<Post[]> {
     try {
-        return JSON.parse(fileContents);
-    } catch {
+        const posts = await prisma.post.findMany({
+            orderBy: {
+                createdAt: 'desc'
+            }
+        });
+        return posts;
+    } catch (error) {
+        console.error('Error fetching posts:', error);
         return [];
     }
 }
 
-export function getPostBySlug(slug: string): Post | undefined {
-    const posts = getPosts();
-    return posts.find(p => p.slug === slug);
-}
-
-export function savePost(post: Post) {
-    ensureDirectory(); // Only ensure directory when we are about to write (fails on Vercel but works locally)
-    const posts = getPosts();
-    const existingIndex = posts.findIndex(p => p.id === post.id);
-    if (existingIndex > -1) {
-        posts[existingIndex] = post;
-    } else {
-        posts.unshift(post);
+/**
+ * Get a single post by slug
+ */
+export async function getPostBySlug(slug: string): Promise<Post | null> {
+    try {
+        const post = await prisma.post.findUnique({
+            where: { slug }
+        });
+        return post;
+    } catch (error) {
+        console.error('Error fetching post by slug:', error);
+        return null;
     }
-    fs.writeFileSync(postsFile, JSON.stringify(posts, null, 2));
 }
 
-export function deletePost(id: string) {
-    ensureDirectory();
-    let posts = getPosts();
-    posts = posts.filter(p => p.id !== id);
-    fs.writeFileSync(postsFile, JSON.stringify(posts, null, 2));
+/**
+ * Save a new post or update an existing one
+ */
+export async function savePost(post: Post): Promise<Post> {
+    try {
+        const savedPost = await prisma.post.upsert({
+            where: { id: post.id },
+            update: {
+                title: post.title,
+                slug: post.slug,
+                content: post.content,
+                excerpt: post.excerpt,
+            },
+            create: {
+                id: post.id,
+                title: post.title,
+                slug: post.slug,
+                content: post.content,
+                excerpt: post.excerpt,
+            }
+        });
+        return savedPost;
+    } catch (error) {
+        console.error('Error saving post:', error);
+        throw new Error('Failed to save post');
+    }
 }
+
+/**
+ * Delete a post by ID
+ */
+export async function deletePost(id: string): Promise<void> {
+    try {
+        await prisma.post.delete({
+            where: { id }
+        });
+    } catch (error) {
+        console.error('Error deleting post:', error);
+        throw new Error('Failed to delete post');
+    }
+}
+
