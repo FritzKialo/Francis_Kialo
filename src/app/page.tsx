@@ -15,7 +15,7 @@ export default function Home() {
             Whether you need a content expert, a data analyst, or a full-stack developer,
             I am ready to deliver excellence.
           </p>
-          <a href="mailto:contact@franciskialo.com" className="inline-block px-8 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-full text-white font-semibold transition-colors shadow-lg shadow-cyan-900/20">
+          <a href="mailto:kialofrances@gmail.com" className="inline-block px-8 py-3 bg-cyan-600 hover:bg-cyan-500 rounded-full text-white font-semibold transition-colors shadow-lg shadow-cyan-900/20">
             Contact Me
           </a>
         </div>
